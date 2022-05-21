@@ -5,9 +5,63 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  }
+
+body>h1, h2, h3 h4{
+  color: rgb(67, 65, 65);
+}
+
+button{
+  background-color: rgb(172, 215, 215);
+  margin: 5px;
+  border: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+}
+
+
+.nav{
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.chart{
+  width: 50%;
+  margin: auto;
+}
+
+.chartlist{
+  display: flex;
+  align-items: center;
+  justify-content:space-around ;
+}
+
+ul.chartinfo{
+  margin-left: 0px;
+}
+
+.chartitem{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.calc{
+  display: flex;
+}
+
+.price{
+  margin-top: 50px;
 }
